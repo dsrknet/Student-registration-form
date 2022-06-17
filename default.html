@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html">
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body style="text-align:"center">
+    <table>   
+    <style>    
+        padding:200px;
+        padding-left:550px;
+        padding-right:550px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        color: #e7e7e7;
+        }
+    .Register{
+        width: 250px;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        margin: -184px 0px 0px -155px;
+        background: rgba(0,0,0,0.5);
+        padding: 20px 40px;
+        border-radius: 5px;
+        box-shadow: 0px 1px 0px rgba(0,0,0,0.3),inset 0px 1px 0px rgba(255,255,255,0.07)
+        }
+
+        h1{
+        color:white;
+        }
+        input{
+        width:250px;
+        height:30px;        
+
+        }
+        </style><center>
+
+  
+
+
+        <form method="get">
+            First Name:&nbsp;&nbsp;<input type="text" name="first name" placeholder="Enter your first name" required /><br />
+            Last Name :&nbsp;&nbsp;<input type="text" name="last name" placeholder="Enter your last name" required /><br />
+            Email :&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email" required placeholder="Enter your email id" /><br />
+            Password :&nbsp;&nbsp;<input type="password" name="password" min="8" placeholder="Enter your password" required /><br />
+            Confirm Password :<input type="password" name="confirm password" min="8" placeholder="confirm your password" required /><br />
+            Date of Birth :&nbsp;&nbsp;<input type="date" name="date of birth" required /><br />
+            Gender :&nbsp;&nbsp;<br />
+            <input type="radio" name="gender" value="male" />Male<br />
+            <input type="radio" name="gender" value="female" />Female<br />
+            <input type="radio" name="gender" value="others" />Others<br />
+            <input type="submit" value="Register!" class="Register" />
+            <input type="reset" style="background-color:darkblue" />
+
+        </form>
+    </table>    
+    </body>
+    </html>
